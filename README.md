@@ -1,8 +1,8 @@
 # Bamazon
 
-#WELCOME TO BAMAZON!
+**WELCOME TO BAMAZON!**
 
-###This app updates a database with customer purchase requests from the command line. 
+**This app updates a database with customer purchase requests from the command line.**
 
 In order to make a purchase, the customer needs to run the file. Once they do, they will be shown the list of products available for purchase, their product IDs, and their price. 
 
