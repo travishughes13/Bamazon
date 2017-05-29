@@ -68,6 +68,18 @@ var start = function() {
                                 }, {
                                 item_id: productID
                             }]);
+                            inquirer.prompt({
+                                name: 'doOver',
+                                type: 'rawlist',
+                                message: 'Would you like to make another purchase?',
+                                choices: ['Yes', 'No']
+                            }).then(function(answer) {
+                                if (answer.doOver.toUpperCase() === 'YES') {
+                                    start();
+                                }
+                                else {
+                                    process.exit();
+                                }});
                         }
                 });
             });
